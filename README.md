@@ -1,7 +1,4 @@
 # Grey Wolf Optimizer in C++
-
-This is a C++ implementation of the meta-heuristic based on the grey wolves hunting patterns :wolf:. This implementation is based on the [research paper](https://www.researchgate.net/publication/260010809_Grey_Wolf_Optimizer) that first published this meta-heuristic. 
-
 This projects implemnts the **Grey Wolf Optimizer (GWO)**, a nature inspired optimization algorithm that mimics the leadership hierarchy and hunting of grey wolves 🐺. The algorithm is tested on multiple benchmark functions.
 
 # Summary
