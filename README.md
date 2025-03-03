@@ -54,7 +54,7 @@ This will optimize various benchmark functions using the GWO algorithm and outpu
 
 # Contributors
 - Mauricio Moscoso (@CasuallyPassingBy)
-- Digeo Gerardo Casados 
+- Diego Gerardo Casados 
 
 # Contributing
 Feel free to contribute by adding new branch functions, improving optimization techniques, or refactoring the code.
