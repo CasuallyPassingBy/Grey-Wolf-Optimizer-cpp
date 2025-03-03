@@ -16,7 +16,7 @@ The Grey Wolf Optimizer (GWO) is a metaheuristic optimization algorithm inspired
 
 # Features
 - Implementation of the Grey Wolf Optimizer
-- Optimization of various benchmark functions
+- Optimization of various [benchmark functions](benchmark_functions.md)
 - Supports parameter tuning for population size, iterations, and repetitions
 - Uses C++ for efficient computation
 
@@ -25,9 +25,51 @@ To build and run the project, you need:
 - A C++ compiler that supports C++17 or later.
 - CMake (optional, for better build management)
 
+# Installation
+1. Clone the repository 
+```bash
+git clone https://github.com/CasuallyPassingBy/Grey-Wolf-Optimizer-cpp.git
+```
+2. Ensure you have a C++ compiler installed (e.g. g++ for GCC)
+
+# Usage 
+Modify `Tesing.cpp` to optimize different functions or adjust the parameters:
+```cpp
+const int population = 20;    // Number of wolves
+const int iterations = 1000;  // Number of iterations
+const int repetitions = 30;   // Number of repetitions
+```
+You can replace the benchmark function being optimized:
+```cpp
+function<double(vector<double>)> target_function = Ackley;
+```
+
+# Compilation
+To compile the project using g++, run:
+```bash
+g++ -o optimizer src/Testing.cpp src/GWO.cpp src/functions.cpp
+```
+Then, excute the program:
+```bash
+./optimizer
+```
+This will optimize various benchmark functions using the GWO algorithm and output the results. 
+
+# Contributors
+- Mauricio Moscoso (@CasuallyPassingBy)
+- Digeo Gerardo Casados 
+
 # Contributing
 Feel free to contribute by adding new branch functions, improving optimization techniques, or refactoring the code.
 
-# Licence
+# Sources
 
-This project is open-source and distributed under the MIT License. [License](LICENSE)
+- **Grey Wolf Optimizer:**
+  - Mirjalili, S., Mirjalili, S. M., & Lewis, A. (2014). *Grey wolf optimizer*. Advances in Engineering Software, 69, 46-61. [DOI: 10.1016/j.advengsoft.2013.12.007](https://doi.org/10.1016/j.advengsoft.2013.12.007)
+
+- **Benchmark Functions:**
+  - Jamil, M., & Yang, X. S. (2013). *A literature survey of benchmark functions for global optimization problems*. International Journal of Mathematical Modelling and Numerical Optimisation, 4(2), 150-194. [DOI: 10.1504/IJMMNO.2013.055204](https://doi.org/10.1504/IJMMNO.2013.055204)
+
+
+# Licence
+This project is open-source and distributed under the [MIT License](LICENSE). 
