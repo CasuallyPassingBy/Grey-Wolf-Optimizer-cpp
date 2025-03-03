@@ -1,4 +1,4 @@
-# Grey Wolf Optimizer Implementation
+# Grey Wolf Optimizer in C++
 
 This is a C++ implementation of the meta-heuristic based on the grey wolves hunting patterns :wolf:. This implementation is based on the [research paper](https://www.researchgate.net/publication/260010809_Grey_Wolf_Optimizer) that first published this meta-heuristic. 
 
