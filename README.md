@@ -53,7 +53,7 @@ Then, excute the program:
 This will optimize various benchmark functions using the GWO algorithm and output the results. 
 
 # Contributors
-- Mauricio Moscoso (@CasuallyPassingBy)
+- M. Moscoso (@CasuallyPassingBy)
 - Diego Gerardo Casados 
 
 # Contributing
